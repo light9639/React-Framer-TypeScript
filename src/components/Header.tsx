@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import "./Header.css";
+import styles from "./Header.module.css";
 
 export default function Header(): JSX.Element {
     return (
-        <div className='Header'>
+        <div className={styles.Header}>
             <Link to="/"><span>Slide</span></Link>
             <Link to="/Appear"><span>Appear</span></Link>
             <Link to="/List"><span>List</span></Link>

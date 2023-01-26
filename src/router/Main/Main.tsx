@@ -5,7 +5,7 @@ import {
     useTransform
 } from "framer-motion";
 import { useState, useRef, useEffect } from "react";
-import "./Main.css";
+import styles from "./Main.module.css";
 
 export default function Main(): JSX.Element {
     const [visibleIndex, setVisibleIndex] = useState(0);
@@ -62,16 +62,16 @@ export default function Main(): JSX.Element {
     }, [x]);
 
     return (
-        <div className="main" ref={boxRef}>
+        <div className={styles.main} ref={boxRef}>
             <motion.div
-                className="slider"
+                className={styles.slider}
                 animate={{ background, transition: { duration: 0.3 } }}
             >
                 <AnimatePresence custom={direction}>
                     {slides.map((slide, i) =>
                         i === visibleIndex ? (
                             <motion.div
-                                className="slide"
+                                className={styles.slide}
                                 key={slide.id}
                                 variants={slideVariants}
                                 initial="hidden"
@@ -113,7 +113,7 @@ export default function Main(): JSX.Element {
                     )}
                 </AnimatePresence>
             </motion.div>
-            <div className="buttons">
+            <div className={styles.buttons}>
                 <button
                     type="button"
                     className="prev"
