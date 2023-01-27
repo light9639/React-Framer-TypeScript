@@ -13,7 +13,7 @@ import Header from './components/Header';
 
 export default function App(): JSX.Element {
   return (
-    <div className="App">
+    <React.Fragment>
       <Header></Header>
       <Routes>
         <Route path="/" element={<Main />} />
@@ -25,6 +25,6 @@ export default function App(): JSX.Element {
         <Route path="/Hover" element={<Hover />} />
         <Route path="/DragPage" element={<DragPage />} />
       </Routes>
-    </div>
+    </React.Fragment>
   )
 }
