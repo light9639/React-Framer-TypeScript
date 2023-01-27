@@ -1,6 +1,6 @@
 import * as React from "react";
 import { motion } from "framer-motion";
-import styles from "./List.module.css";
+import styles from "./List.module.scss";
 
 const container = {
     hidden: { opacity: 1, scale: 0 },

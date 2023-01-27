@@ -5,7 +5,7 @@ import {
     useTransform
 } from "framer-motion";
 import { useState, useRef, useEffect } from "react";
-import styles from "./Main.module.css";
+import styles from "./Main.module.scss";
 
 export default function Main(): JSX.Element {
     const [visibleIndex, setVisibleIndex] = useState(0);

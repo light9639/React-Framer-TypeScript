@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import styles from "./Appear.module.css";
+import styles from "./Appear.module.scss";
 
 export default function Appear() {
     return (

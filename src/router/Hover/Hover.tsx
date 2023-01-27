@@ -1,6 +1,6 @@
 import * as React from "react";
 import { motion } from "framer-motion";
-import styles from './Hover.module.css'
+import styles from './Hover.module.scss'
 
 export default function Hover(): JSX.Element {
     return (

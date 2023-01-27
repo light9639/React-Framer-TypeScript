@@ -1,6 +1,6 @@
 import * as React from "react";
 import { motion, useViewportScroll, useTransform } from "framer-motion";
-import styles from "./Scroll.module.css";
+import styles from "./Scroll.module.scss";
 
 export default function Scroll(): JSX.Element {
     const { scrollYProgress } = useViewportScroll();

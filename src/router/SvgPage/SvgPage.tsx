@@ -1,6 +1,6 @@
 import * as React from "react";
 import { motion } from "framer-motion";
-import styles from './Svg.module.css'
+import styles from './SvgPage.module.scss'
 
 const icon = {
     hidden: {
@@ -15,7 +15,7 @@ const icon = {
     }
 };
 
-export default function Svg() {
+export default function SvgPage() {
     return (
         <div className={styles.container}>
             <motion.svg

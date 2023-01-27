@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import styles from "./Header.module.css";
+import styles from "./Header.module.scss";
 
 export default function Header(): JSX.Element {
     return (
@@ -10,7 +10,7 @@ export default function Header(): JSX.Element {
             <Link to="/List"><span>List</span></Link>
             <Link to="/Drag"><span>Drag</span></Link>
             <Link to="/Scroll"><span>Scroll</span></Link>
-            <Link to="/Svg"><span>Svg</span></Link>
+            <Link to="/SvgPage"><span>Svg</span></Link>
             <Link to="/Hover"><span>Hover</span></Link>
             <Link to="/DragPage"><span>DragPage</span></Link>
         </div>

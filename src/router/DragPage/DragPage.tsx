@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { motion, useMotionValue, useTransform } from "framer-motion";
-import styles from './DragPage.module.css'
+import styles from './DragPage.module.scss'
 
 export default function DragPage() {
     const x = useMotionValue(0);
