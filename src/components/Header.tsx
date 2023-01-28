@@ -10,7 +10,7 @@ export default function Header(): JSX.Element {
             <Link to="/List"><span>List</span></Link>
             <Link to="/Drag"><span>Drag</span></Link>
             <Link to="/Scroll"><span>Scroll</span></Link>
-            <Link to="/SvgPage"><span>Svg</span></Link>
+            <Link to="/SvgPage"><span>SvgPage</span></Link>
             <Link to="/Hover"><span>Hover</span></Link>
             <Link to="/DragPage"><span>DragPage</span></Link>
         </div>
