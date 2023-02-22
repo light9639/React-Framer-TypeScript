@@ -170,3 +170,7 @@ export default function Header(): JSX.Element {
 
 ## ⚙️ 'src/router' 파일 속 수많은 컴포넌트 작성법.
 - `router` 파일 속 컴포넌트 각각의 컴포넌트에서 확인하여 작성하면 된다.
+
+## 📎 출처
+- <a href="https://www.framer.com/motion/">Framer Motion.</a>
+- <a href="https://nykim.work/114">Framer-motion 라이브러리 훑어보기</a>
